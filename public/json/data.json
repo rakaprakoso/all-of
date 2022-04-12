@@ -1,0 +1,176 @@
+{
+    "title": "Portfolio - Raka D Prakoso",
+    "name": "Raka D Prakoso",
+    "role": ["Fullstack Developer", "Web Developer", "RPA Developer","Designer"],
+    "background_image": "assets/img/IMG_0513.JPG",
+    "social_media": [
+      {
+        "socmed": "facebook",
+        "icon": "bx bxl-facebook",
+        "url": "https://facebook.com/RakaDP"
+      },
+      {
+        "socmed": "instagram",
+        "icon": "bx bxl-instagram",
+        "url": "https://instagram.com/rakadprakoso"
+      },
+      {
+        "socmed": "linkedin",
+        "icon": "bx bxl-linkedin",
+        "url": "https://www.linkedin.com/in/raka-d-p-74b67b122/"
+      }
+    ],
+    "profile_pic": "assets/img/IMG_3926.JPG",
+    "about": "Enthusiasm in Full Stack Developer experience designing, developing and implementing applications and solutions using a range of technologies and programming languages. Seeking to leverage broad development experience and hands-on technical expertise in a challenging role as a Full-stack Developer.",
+    "birthday": "2000-02-16",
+    "website": "www.deprakoso.com",
+    "phone": "+62 81 226 727 363",
+    "city": "Jepara",
+    "degree": "Bachelor",
+    "email": "rakaprakoso2@gmail.com",
+    "cv": "https://allof.deprakoso.com/assets/file/CV-RakaDPrakoso.pdf",
+    "skills": ["HTML","CSS","Javascript","PHP","UiPath","NodeJS","Python","Laravel","Git","Wordpress","CorelDraw","Photoshop","Sony Vegas"],
+    "education": [
+      {
+        "sub_title": "Bachelor of Information System",
+        "duration": "2018-2022",
+        "title": "President University"
+      },
+      {
+        "sub_title": "Animation",
+        "duration": "2015-2018",
+        "title": "Vocational High School 2 Jepara"
+      }
+    ],
+    "jobs_experience": [
+        {
+            "title": "RPA Developer",
+            "sub_title": "Indosat Ooredoo Hutchison",
+            "duration": "2021 – Present"
+        },
+        {
+            "title": "INTERN VR LEARNING PROGRAM",
+            "sub_title": "CIMB Niaga",
+            "duration": "2021 – Present"
+        },
+        {
+            "title": "INTERN QUALITY ASSURANCE",
+            "sub_title": "Agate Studio",
+            "duration": "2021 – 2021"
+        },
+        {
+            "title": "WEB DEVELOPER FREELANCE",
+            "sub_title": "ANZ Design Indonesia",
+            "duration": "2020 – Present"
+        },
+        {
+            "title": "DESKPRINT",
+            "sub_title": "Snapy Jababeka",
+            "duration": "2018 – 2020"
+        }
+    ],
+    "organization_experience": [
+        {
+            "title": "President University Student Council",
+            "sub_title": "Web Developer",
+            "duration": "2020 – 2021"
+        },
+        {
+            "title": "President University Student Council",
+            "sub_title": "Designer",
+            "duration": "2019 – 2020"
+        }
+    ],
+    "portfolio_type":["mobile-app","web","design"],
+    "portfolio": [
+      {
+        "name": "ICStar Hackathon - Offboarding Employee",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/ICstar.jpg",
+        "type": "Web App",
+        "url": "https://offboarding.deprakoso.com/"
+      },
+      {
+        "name": "Kacinvest",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-1.jpg",
+        "type": "Mobile App",
+        "url": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-1.jpg"
+      },
+      {
+        "name": "King Smith Walking Pad – Company Profile",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-2.jpg",
+        "type": "Web",
+        "url": "https://kingsmithwalkingpad.com"
+      },
+      {
+        "name": "PUSC – Organization Profile",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-3.jpg",
+        "type": "Web",
+        "url": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-3.jpg"
+      },
+      {
+        "name": "Keina Beauty – Online Shop",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-4.jpg",
+        "type": "Web",
+        "url": "https://keinabeauty.com"
+      },
+      {
+        "name": "Arif Furniture Indonesia – Online Shop",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/Arif Furniture Indonesia.png",
+        "type": "Web",
+        "url": "https://ariffurnitureindonesia.com/"
+      },
+      {
+        "name": "Moorid Learning Center – Company Profile",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/Moorid.png",
+        "type": "Web",
+        "url": "https://mooridlearningcenter.com/"
+      },
+      {
+        "name": "NorthWest",
+        "img": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-6.jpg",
+        "type": "Design",
+        "url": "https://allof.deprakoso.com/assets/img/portfolio/portfolio-6.jpg"
+      }
+    ],
+    "hobby": [
+      {
+        "name": "Gaming",
+        "icon": "<i class='bx bx-game'></i>",
+        "description": "Love playing adventure & simulation games"
+      },
+      {
+        "name": "Technology Enthusiast",
+        "icon": "<i class='bx bx-laptop' ></i>",
+        "description": "Suka aja oprek oprek"
+      },
+      {
+        "name": "One Piece Lovers",
+        "icon": "<i class='bx bx-movie-play' ></i>",
+        "description": "Strawhat 11th nakama"
+      },
+      {
+        "name": "Music Lovers",
+        "icon": "<i class='bx bx-music'></i>",
+        "description": "K Pop, 90 s Music, Country"
+      },
+      {
+        "name": "Loading...",
+        "icon": "<i class='bx bx-loader-circle'></i>",
+        "description": "Null"
+      },
+      {
+        "name": "404",
+        "icon": "<i class='bx bx-x-circle'></i>",
+        "description": "Undefined"
+      }
+    ],
+    "contact":{
+      "address":"Jepara, Central Java",
+      "email":"rakaprakoso2@gmail.com",
+      "phone_display":"+62 81 226 727 363",
+      "phone":"+6281226727363",
+      "wa_display":"+62 81 226 727 363",
+      "wa":"6281226727363",
+      "wa_message":"Halo Raka, I know you from your website"
+    }
+  }
