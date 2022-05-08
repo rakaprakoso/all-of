@@ -2,6 +2,7 @@
 
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
+use Illuminate\Support\Facades\File;
 
 use App\Http\Controllers\API\ProductController;
 use App\Http\Controllers\API\EcommerceController;
@@ -15,6 +16,12 @@ use App\Http\Controllers\API\EcommerceController;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::get('/data', function () {
+    $data = File::get(public_path('json/data.json'));
+    return response()->json(json_decode($data, true));
+});
+
 //API route for register new user
 Route::post('/register', [App\Http\Controllers\API\AuthController::class, 'register']);
 //API route for login user
