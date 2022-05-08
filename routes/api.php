@@ -3,6 +3,8 @@
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\API\ProductController;
+use App\Http\Controllers\API\EcommerceController;
 /*
 |--------------------------------------------------------------------------
 | API Routes
@@ -45,3 +47,8 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 });
 
 Route::post('/contact-portfolio', [App\Http\Controllers\SendMailController::class, 'contact']);
+
+Route::get('/product', [ProductController::class, 'index']);
+Route::get('/product/{id}', [ProductController::class, 'show']);
+
+Route::get('/category', [EcommerceController::class, 'category']);
