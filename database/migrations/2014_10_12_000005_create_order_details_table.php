@@ -18,10 +18,10 @@ class CreateOrderDetailsTable extends Migration
             $table->foreign('order_id')->references('id')->on('orders')->onDelete('cascade');
             $table->bigInteger('product_id')->unsigned()->nullable();
             $table->foreign('product_id')->references('id')->on('products')->onDelete('cascade');
-            $table->float('price')->nullable();
+            $table->double('price')->nullable();
             $table->float('qty')->nullable();
             $table->string('coupon_code')->nullable();
-            $table->float('coupon_amount')->nullable();
+            $table->double('coupon_amount')->nullable();
             $table->primary(['order_id','product_id']);
             $table->timestamps();
         });
