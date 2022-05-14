@@ -59,3 +59,12 @@ Route::get('/product', [ProductController::class, 'index']);
 Route::get('/product/{id}', [ProductController::class, 'show']);
 
 Route::get('/category', [EcommerceController::class, 'category']);
+Route::get('/cart', [EcommerceController::class, 'getCart'])->middleware('auth:sanctum');
+Route::post('/cart', [EcommerceController::class, 'postCart'])->middleware('auth:sanctum');
+Route::get('/checkoutaddress', [EcommerceController::class, 'getCheckoutAddress'])->middleware('auth:sanctum');
+
+Route::post('/placeorder', [EcommerceController::class, 'placeOrder'])->middleware('auth:sanctum');
+Route::get('/order', [EcommerceController::class, 'indexOrder'])->middleware('auth:sanctum');
+Route::get('/order/{id}', [EcommerceController::class, 'showOrder'])->middleware('auth:sanctum');
+Route::get('/payment/notification', [EcommerceController::class, 'notificationAPI'])->name('notificationAPI');
+Route::post('/payment/notification', [EcommerceController::class, 'postNotificationAPI'])->name('postNotificationAPI');

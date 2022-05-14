@@ -19,6 +19,7 @@ class CreatePaymentsTable extends Migration
             $table->primary('order_id');
             $table->string('shipping_price')->nullable();
             $table->integer('total_price')->unsigned()->nullable();
+            $table->string('status')->nullable();
             $table->string('midtrans_order_id')->nullable();
             $table->string('midtrans_transaction_id')->nullable();
             $table->timestamps();

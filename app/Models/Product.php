@@ -27,6 +27,10 @@ class Product extends Model
     public function getMoneyAttribute(){
         return sprintf('Rp. %s', number_format(floatval($this->price), 0, null, '.'));
     }
+
+    public function getUsedPriceAttribute(){
+        return $this->discount_price ? $this->discount_price : $this->price;
+    }
     // public function getImagesArrAttribute(){
     //     return $this->images;
     // }
