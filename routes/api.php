@@ -5,6 +5,7 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\File;
 
 use App\Http\Controllers\API\ProductController;
+use App\Http\Controllers\API\OrderController;
 use App\Http\Controllers\API\EcommerceController;
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +21,59 @@ use App\Http\Controllers\API\EcommerceController;
 Route::get('/data', function () {
     $data = File::get(public_path('json/data.json'));
     return response()->json(json_decode($data, true));
+});
+
+Route::get('/keeus/order/{order_id}', [OrderController::class, 'show']);
+
+Route::get('/keeus/order2', function () {
+    $data = File::get(public_path('json/keeus_order.json'));
+    return response()->json(json_decode($data, true));
+});
+Route::get('/keeus/product', function () {
+    $merchantId = 1;
+    return  app(ProductController::class)->index(request(), $merchantId);
+});
+Route::get('/keeus/product2', function () {
+    $data = File::get(public_path('json/keeus_product.json'));
+    return response()->json(json_decode($data, true));
+});
+
+Route::get('/keeus/story', function () {
+
+    if (env('APP_ENV', 'dev') === 'production') {
+        $directoryPath = public_path('../../public_html/storage/img/keeus_story');
+
+        if (!File::exists($directoryPath)) {
+            return response()->json(['error' => 'Directory not found'], 404);
+        }
+
+        // Get all files in the directory
+        $files = File::files($directoryPath);
+
+        // Store the file names in an array
+        $fileNames = [];
+        foreach ($files as $file) {
+            $fileNames[] = "https://storage.deprakoso.com/img/keeus_story/".$file->getFilename(); // Get the file name (you can also get the full path if needed)
+        }
+
+        // Return the list of filenames as a JSON response
+        return response()->json($fileNames);
+    } else {
+        $apiUrl = 'https://allof.deprakoso.com/api/keeus/story';
+        // Make the HTTP GET request
+        $response = Http::get($apiUrl);
+        // Check if the response is successful
+        if ($response->successful()) {
+            // Convert the response JSON to an array
+            $data = $response->json();
+        }else {
+            // Handle errors
+            return ['error' => 'Failed to fetch data from API'];
+        }
+        return response()->json($data);
+    }
+
+    // Check if the directory exists
 });
 
 //API route for register new user
@@ -66,5 +120,7 @@ Route::get('/checkoutaddress', [EcommerceController::class, 'getCheckoutAddress'
 Route::post('/placeorder', [EcommerceController::class, 'placeOrder'])->middleware('auth:sanctum');
 Route::get('/order', [EcommerceController::class, 'indexOrder'])->middleware('auth:sanctum');
 Route::get('/order/{id}', [EcommerceController::class, 'showOrder'])->middleware('auth:sanctum');
+Route::get('/vendors', [EcommerceController::class, 'getVendorList'])->middleware('auth:sanctum');
+// Route::get('/order/{id}', [EcommerceController::class, 'showOrder'])->middleware('auth:sanctum');
 Route::get('/payment/notification', [EcommerceController::class, 'notificationAPI'])->name('notificationAPI');
 Route::post('/payment/notification', [EcommerceController::class, 'postNotificationAPI'])->name('postNotificationAPI');

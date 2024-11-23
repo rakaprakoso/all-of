@@ -1,0 +1,221 @@
+[
+  {
+    "id": "145",
+    "sku": "bites1",
+    "name": "Brownie Bites Original",
+    "price": 18000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/bites/1.jpg",
+      "/assets/img/product/bites/2.jpg"
+    ],
+    "shortDescription": "Brownies Original",
+    "fullDescription": "Brownies Mantap Lezat"
+  },
+  {
+    "id": "146",
+    "sku": "bites2",
+    "name": "Brownie Bites Mix",
+    "price": 20000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/bites/Bites3.jpeg"
+    ],
+    "shortDescription": "Brownies Original  (Chocochip / Almond / Oreo / Cheese / Beng beng)",
+    "fullDescription": "Brownies Mantap Lezat (Chocochip / Almond / Oreo / Cheese / Beng beng)"
+  },
+  {
+    "id": "147",
+    "sku": "box1",
+    "name": "Brownie Box Original",
+    "price": 34000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/OriBox.jpeg",
+      "/assets/img/product/box/2.jpg"
+    ],
+    "shortDescription": "Brownies Original",
+    "fullDescription": "Brownies Mantap Lezat "
+  },
+  {
+    "id": "148",
+    "sku": "box2",
+    "name": "Brownie Box All Mix",
+    "price": 42000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/2.jpg",
+      "/assets/img/product/box/1.jpg"
+    ],
+    "shortDescription": "Brownies All Mix - All Topping (Chocochip, Almond, Oreo, Cheese, Beng beng, Lotus)",
+    "fullDescription": "Brownies Mantap Lezat All Topping (Chocochip, Almond, Oreo, Cheese, Beng beng, Lotus)"
+  },
+  {
+    "id": "149",
+    "sku": "box3",
+    "name": "Brownie Box 2 Mix",
+    "price": 37000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/3.jpeg"
+    ],
+    "shortDescription": "Brownies 2 Mix - Pilih 2 Topping (Chocochip / Almond / / Cheese )",
+    "fullDescription": "Pilih 2 Topping (Chocochip / Almond / Cheese)"
+  },
+  {
+    "id": "150",
+    "sku": "box4",
+    "name": "Brownie Box 1 Topping",
+    "price": 36000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/almond1.jpeg"
+    ],
+    "shortDescription": "Brownies 1 Topping (Chocochip / Almond / Cheese)",
+    "fullDescription": "Pilih 1 Topping (Chocochip / Almond / Cheese)"
+  },
+  {
+    "id": "151",
+    "sku": "box4",
+    "name": "Brownie Box 1 Topping Premium",
+    "price": 39000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/almond1.jpeg"
+    ],
+    "shortDescription": "Brownies 1 Topping (Beng Beng / Oreo)",
+    "fullDescription": "Pilih 1 Topping (Beng Beng / Oreo)"
+  },
+  {
+    "id": "152",
+    "sku": "box4",
+    "name": "Browkies (Brownies Cookies)",
+    "price": 45000,
+    "discount": 10,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/Browkies.jpeg"
+    ],
+    "shortDescription": "Brownies Cookies",
+    "fullDescription": "Brownies Cookies"
+  },
+  {
+    "id": "153",
+    "sku": "box4",
+    "name": "Brownie Box Lotus",
+    "price": 44000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/1.jpg"
+    ],
+    "shortDescription": "Brownies 1 Topping Lotus",
+    "fullDescription": "Pilih 1 Topping Lotus"
+  },
+  {
+    "id": "154",
+    "sku": "box3",
+    "name": "Brownie Box 2 Mix Pro",
+    "price": 38000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/3.jpeg"
+    ],
+    "shortDescription": "Brownies 2 Mix - Pilih 1 Topping (Chocochip / Almond / Cheese) + 1 Topping Premium (Oreo / Beng Beng)",
+    "fullDescription": "Pilih 1 Topping (Chocochip / Almond / Cheese) + 1 Topping Premium (Oreo / Beng Beng)"
+  },
+  {
+    "id": "155",
+    "sku": "box3",
+    "name": "Brownie Box 2 Mix Premium",
+    "price": 39000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/2.jpg"
+    ],
+    "shortDescription": "Brownies 2 Mix - Pilih 2 Topping Premium (Oreo & Beng Beng)",
+    "fullDescription": "Pilih 2 Topping Premium (Oreo & Beng Beng)"
+  },
+  {
+    "id": "156",
+    "sku": "box3",
+    "name": "Brownie Box 2 Mix Special",
+    "price": 42000,
+    "discount": 0,
+    "new": true,
+    "rating": 5,
+    "saleCount": 0,
+    "category": ["brownies"],
+    "tag": ["brownies"],
+    "stock": 100,
+    "image": [
+      "/assets/img/product/box/2.jpg"
+    ],
+    "shortDescription": "Brownies 2 Mix - Pilih 1 Topping Premium (Oreo / Beng Beng) + 1 Topping Spesial Lotus)",
+    "fullDescription": "Pilih 1 Topping Premium (Oreo / Beng Beng) + 1 Topping Spesial Lotus"
+  }
+]

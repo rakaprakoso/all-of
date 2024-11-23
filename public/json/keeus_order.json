@@ -1,0 +1,275 @@
+[
+    {
+      "id": "20241103001",
+      "sku": "asdf123",
+      "name": "Mas Fikri",
+      "discount": 5000,
+      "product": [
+        {
+          "name": "Bites",
+          "topping": "Almond",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 19000,
+          "qty": 3
+        },
+        {
+          "name": "Bites",
+          "topping": "Beng Beng",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 19000,
+          "qty": 1
+        },
+        {
+          "name": "Bites",
+          "topping": "Oreo",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 19000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241103002",
+      "sku": "asdf123",
+      "name": "Mas Nabil",
+      "discount": 6000,
+      "product": [
+        {
+          "name": "Box",
+          "topping": "Original",
+          "image": "/assets/img/product/box/1.jpg",
+          "price": 34000,
+          "qty": 1
+        },
+        {
+          "name": "Bites",
+          "topping": "Oreo",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241103003",
+      "sku": "asdf123",
+      "name": "Mas Syahid",
+      "discount": 6000,
+      "product": [
+        {
+          "name": "Bites",
+          "topping": "Chocochip",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 19000,
+          "qty": 1
+        },
+        {
+          "name": "Box",
+          "topping": "Mix (Chocochip, Oreo, Beng)",
+          "image": "/assets/img/product/box/1.jpg",
+          "price": 39000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241103004",
+      "sku": "asdf123",
+      "name": "Mba Ziqra",
+      "discount": 0,
+      "product": [
+        {
+          "name": "Box",
+          "topping": "Mix All",
+          "image": "/assets/img/product/box/1.jpg",
+          "price": 42000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241103005",
+      "sku": "asdf123",
+      "name": "Mas Tihad",
+      "discount": 2000,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112001",
+      "sku": "asdf123",
+      "name": "Kak Resti",
+      "discount": 0,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112002",
+      "sku": "asdf123",
+      "name": "Kak Elya",
+      "discount": 0,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112003",
+      "sku": "asdf123",
+      "name": "Bu Yatni",
+      "discount": 0,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112004",
+      "sku": "asdf123",
+      "name": "Mas Amri",
+      "discount": 0,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "20241112005",
+      "sku": "asdf123",
+      "name": "Pak Bayu",
+      "discount": 0,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112006",
+      "sku": "asdf123",
+      "name": "Mas Tihad",
+      "discount": 0,
+      "product": [
+        {
+            "name": "Box",
+            "topping": "Mix All",
+            "image": "/assets/img/product/box/1.jpg",
+            "price": 42000,
+            "qty": 1
+        },
+        {
+          "name": "Bites",
+          "topping": "Almond",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112007",
+      "sku": "asdf123",
+      "name": "Mba Lia",
+      "discount": 3000,
+      "product": [
+        {
+          "name": "Bites",
+          "topping": "Original",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 18000,
+          "qty": 1
+        },
+        {
+          "name": "Bites",
+          "topping": "Almond",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 1
+        }
+      ]
+    },
+    {
+      "id": "20241112008",
+      "sku": "asdf123",
+      "name": "Mas Fikri",
+      "discount": 10000,
+      "product": [
+        {
+          "name": "Bites",
+          "topping": "Almond",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 4
+        },
+        {
+          "name": "Bites",
+          "topping": "Beng Beng",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 4
+        },
+        {
+          "name": "Bites",
+          "topping": "Chocochip",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 2
+        }
+      ]
+    },
+    {
+      "id": "20241112009",
+      "sku": "asdf123",
+      "name": "Mas Syahid",
+      "discount": 0,
+      "product": [
+        {
+          "name": "Bites",
+          "topping": "Chocochip",
+          "image": "/assets/img/product/bites/1.jpg",
+          "price": 20000,
+          "qty": 1
+        },
+        {
+          "name": "Box",
+          "topping": "Mix (Chocochip, Oreo, Beng)",
+          "image": "/assets/img/product/box/1.jpg",
+          "price": 39000,
+          "qty": 1
+        }
+      ]
+    }
+]

@@ -4,9 +4,10 @@ namespace App\Http\Controllers\API;
 
 use App\Http\Controllers\Controller;
 use App\Models\Product;
+use App\Models\Order;
 use Illuminate\Http\Request;
 
-class ProductController extends Controller
+class OrderController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -77,18 +78,19 @@ class ProductController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($order_id)
     {
         $responseMessage = '';
         try {
-            $product = Product::where('slug',$id)->first();
-            $product['imagesArr'] = [$product->thumbnail_img];
-            $product['imagesArr'] = array_merge($product['imagesArr'],json_decode(json_encode($product->images->pluck('image_path')), true));
+            $order = Order::where('order_id',$order_id)->first();
+            // $order['imagesArr'] = [$order->thumbnail_img];
+            // $order['imagesArr'] = array_merge($order['imagesArr'],json_decode(json_encode($order->images->pluck('image_path')), true));
 
-            $responseMessage = 'Product Get Successfully!';
-            return $this->responseSuccess($responseMessage, $product);
+            $responseMessage = 'Order Get Successfully!';
+            return $this->responseSuccess($responseMessage, $order);
         } catch (\Throwable $th) {
-            $responseMessage = 'Product Error!';
+            echo $th;
+            $responseMessage = 'Order Error!';
             return $this->responseFail($responseMessage, null);
         }
     }

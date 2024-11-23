@@ -11,6 +11,7 @@ use App\Models\Order;
 use App\Models\OrderDetail;
 use App\Models\Payment;
 use App\Models\Product;
+use App\Models\Vendor;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
 
@@ -400,6 +401,26 @@ class EcommerceController extends Controller
         // $status = \Midtrans\Transaction::status($orderId);
         // return Response::json($status);
         // var_dump($status);
+    }
+
+    public function getVendorList(Request $request)
+    {
+        $responseMessage = '';
+        $isAuth = auth()->user();
+        if ($isAuth) {
+            try {
+                $order = Vendor::get();
+
+                $responseMessage = 'Data Get!';
+                return $this->responseSuccess($responseMessage, $order);
+            } catch (\Throwable $th) {
+                $responseMessage = 'Data Error!';
+                return $this->responseFail($responseMessage, null);
+            }
+        } else {
+            $responseMessage = 'Data Zero!';
+            return $this->responseSuccess($responseMessage, null);
+        }
     }
 
     private function isProduction()
