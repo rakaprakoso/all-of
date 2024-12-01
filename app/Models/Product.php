@@ -82,7 +82,8 @@ class Product extends Model
 
     public function getDiscountAttribute()
     {
-        if ($this->discount_price) {
+        //return $this->discount_price;
+        if ($this->discount_price && $this->discount_price >0) {
             $discount = ($this->price - $this->discount_price)/$this->price*100;
         }
         return $discount ?? 0;

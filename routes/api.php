@@ -39,8 +39,8 @@ Route::get('/keeus/product2', function () {
 });
 
 Route::get('/keeus/story', function () {
-
-    if (env('APP_ENV', 'dev') === 'production') {
+    //echo env('APP_ENV', 'dev');
+    if (env('APP_ENV', 'production') === 'production') {
         $directoryPath = public_path('../../public_html/storage/img/keeus_story');
 
         if (!File::exists($directoryPath)) {
@@ -59,6 +59,7 @@ Route::get('/keeus/story', function () {
         // Return the list of filenames as a JSON response
         return response()->json($fileNames);
     } else {
+        //  return response()->json([]);
         $apiUrl = 'https://allof.deprakoso.com/api/keeus/story';
         // Make the HTTP GET request
         $response = Http::get($apiUrl);

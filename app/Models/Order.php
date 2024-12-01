@@ -56,8 +56,8 @@ class Order extends Model
                 'name' => $detail->product->name,
                 'topping' => $detail->variant,
                 'image' => $detail->product->thumbnail_img,
-                'price' => $detail->price,
-                'qty' => $detail->qty,
+                'price' => $detail->price == (int) $detail->price ? (int) $detail->price : (float) $detail->price,
+                'qty' => $detail->qty == (int) $detail->qty ? (int) $detail->qty : (float) $detail->qty
             ];
         });
     }
